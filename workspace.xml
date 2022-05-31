@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e5810ed-75e5-4288-b18f-573fc0e26331" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/InternshipSite/views/cv_respons.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternshipSite/views/profile.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternshipSite/views/search.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipSite/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/images/cont1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/images/mainbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/images/rr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/images/rrr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/images/story.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/images/videoplayback.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipSite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/sign_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipSite/sign_in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/views/intern.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipSite/views/intern.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/views/job.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipSite/views/job.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/views/user_cv.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipSite/views/user_cv.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/views/welcome.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipSite/views/welcome.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipSite/views/welcome_emp.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipSite/views/welcome_emp.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27MVXRKLhlihDsrLpQeFB6ZuOan" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.18.12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project2" />
+    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v14.15.0-win-x64/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e5810ed-75e5-4288-b18f-573fc0e26331" name="Changes" comment="" />
+      <created>1649129980875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649129980875</updated>
+      <workItem from="1649129981977" duration="643000" />
+      <workItem from="1650466304769" duration="194000" />
+      <workItem from="1650466552772" duration="54000" />
+      <workItem from="1650643437337" duration="9772000" />
+      <workItem from="1650660003228" duration="772000" />
+      <workItem from="1650679678317" duration="695000" />
+      <workItem from="1650688739701" duration="772000" />
+      <workItem from="1651295241227" duration="1782000" />
+      <workItem from="1651515446964" duration="13545000" />
+      <workItem from="1651545849000" duration="5695000" />
+      <workItem from="1651586536023" duration="5374000" />
+      <workItem from="1652035217949" duration="163000" />
+      <workItem from="1652035867785" duration="2403000" />
+      <workItem from="1652121833557" duration="179000" />
+      <workItem from="1652123529752" duration="1810000" />
+      <workItem from="1652287758789" duration="5447000" />
+      <workItem from="1652462001118" duration="14796000" />
+      <workItem from="1652607525806" duration="19167000" />
+      <workItem from="1652709597129" duration="15229000" />
+      <workItem from="1652754848080" duration="3183000" />
+      <workItem from="1652773199304" duration="2758000" />
+      <workItem from="1652796646930" duration="775000" />
+      <workItem from="1652804261185" duration="318000" />
+      <workItem from="1652888722104" duration="687000" />
+      <workItem from="1652890705344" duration="2504000" />
+      <workItem from="1652893245202" duration="2597000" />
+      <workItem from="1652895881303" duration="1461000" />
+      <workItem from="1652897368062" duration="1267000" />
+      <workItem from="1652898660411" duration="3368000" />
+      <workItem from="1652935688609" duration="22000" />
+      <workItem from="1652968167318" duration="4829000" />
+      <workItem from="1652980903955" duration="2182000" />
+      <workItem from="1653070479752" duration="3759000" />
+      <workItem from="1653074336168" duration="10309000" />
+      <workItem from="1653108271560" duration="2466000" />
+      <workItem from="1653233181422" duration="5324000" />
+      <workItem from="1653361697851" duration="608000" />
+      <workItem from="1653544595344" duration="13578000" />
+      <workItem from="1653599532938" duration="7599000" />
+      <workItem from="1653627369767" duration="21900000" />
+      <workItem from="1653713781413" duration="2099000" />
+      <workItem from="1653915592031" duration="1094000" />
+      <workItem from="1653939374844" duration="6560000" />
+      <workItem from="1653987306159" duration="24259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/gentle-wildwood-44437" />
+    </ignored-roots>
+  </component>
+</project>

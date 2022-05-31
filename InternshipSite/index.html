@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Empire</title>
+  <!--Favicon-->
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--css-->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js">
+  </script>
+
+
+</head>
+
+<body>
+
+
+  <!--Java animation-->
+  <!--<div class="intro">
+    <h1 class="logo-header">
+      <center><span class="logo">Empire</span></center><span class="logo">
+        <center><img class="logpng" src="images/sushi.png" width="50%"></center>
+      </span>
+    </h1>
+  </div>-->
+
+<!--<script type="text/javascript">
+    let intro = document.querySelector('.intro');
+    let logo = document.querySelector('.logo-header');
+    let logoSpan = document.querySelectorAll('.logo');
+
+
+    window.addEventListener('DOMContentLoaded', () => {
+
+      setTimeout(() => {
+
+        logoSpan.forEach((span, idx) => {
+          setTimeout(() => {
+            span.classList.add('active');
+          }, (idx + 1) * 350)
+        });
+
+        setTimeout(() => {
+          logoSpan.forEach((span, idx) => {
+            setTimeout(() => {
+              span.classList.remove("active");
+              span.classList.add('fade');
+
+            }, (idx + 1) * 60)
+          })
+
+        }, 1700);
+
+        setTimeout(() => {
+          intro.style.top = '-100vh';
+        }, 2100)
+
+      })
+    })
+
+
+  </script>-->
+
+  <!--Header-->
+
+  <div class="header" style="padding-bottom: 12%;" ><a name="home"></a>
+    <div class="container-fluid" style=" padding: 0; opacity: 100%;">
+      <!--Nav Bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-xxl">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto order-2">
+              <li class="nav-item">
+                <a class="nav-link " class="xxx" href="#aboutss"><span class = "sp" >Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " class="xxx" ><span class = "sp" >About Us</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " class="xxx"> <span class = "sp" >Internships</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" class="xxx" > <span  class = "sp"> Contacts</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" class="xxx" style="" href="/sign_up"> <span class = "sp">Sign Up</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" class="xxx" style="background-color: white; color: black; border-radius: 20px;" href="/sign_in"> <span class = "sp">Sign In</span></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+    <!--Main Text-->
+
+    <div class="container" >
+      <div class="row" style="margin-top: 15%;">
+        <div class="col-lg-6">
+
+          <div class="oriental">
+            <h1 class="text">Find any Internship with Empire!</h1>
+            <a class="btn btn-outline-light btn-lg mt-3">Explore more...</a>
+          </div>
+          <!--Create first container for Weather API-->
+            <div class="weather-container" style="margin-top: 5%">
+              <span style="color: white; font-size: 20px; font-weight: bold;">Weather in Nur-Sultan:</span> <br>
+              <img class="icon">
+              <span class="weather"></span>
+              <span class="temp"></span><span style="color: white; font-size: 20px;">°C</span>
+            </div>
+            <!--Create second container for Currency API-->
+
+            <div class="container-exchange">
+              <span style="color: white; font-size: 20px; font-weight: bold;">Currency Exchange:</span><br>
+              <span class="ussr">USD -> KZT: </span>
+            <span id = "usd" class="money"></span><span class="money"> tenge</span><br>
+            <span class="ussr">EUR -> KZT: </span>
+            <span id = "eur" class="money"></span><span class="money"> tenge</span>
+            </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--About Us-->
+
+  <div class="aboutss"><a name="aboutss"></a>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" style="margin-top: 3%;">
+          <center>
+            <div class="about">
+              <h1 class="about_h">About Us</h1>
+              <p class="about_text ">Welcome to Empire! The goal of Empire is to help you to find various internships in order to develop your experience and skills with further employment opportunities using our website.</p>
+            </div>
+          </center>
+        </div>
+        <div class="col-lg-6">
+          <center><img src="images/Logo.png" alt="Logo" width="70%"></center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Icons-->
+
+
+  <div class="icons" style="background-color: #01020b; padding: 3%;">
+    <center><h1 style="color: white; margin: 1%; margin-bottom: 3%; font-weight: bold;">How does it work?</h1></center>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4" style="padding: 2%;">
+          <center>
+            <img id="sticked" border="0" src="images/food.png" width="30%" alt="" style="margin: 2%;">
+            <h3 style="color: white; font-weight: bold;">1. Register / Log In</h3>
+            <span id="hided" style="color: white;">First you have an account.</span>
+          </center>
+        </div>
+        <div class="col-lg-4" style="padding: 2%;  ">
+          <center>
+            <img id="sticke" src="images/time.png" width="30%" alt="" style="margin: 2%;">
+            <h3 style="color: white; font-weight: bold;">2. Find Internship</h3>
+            <span id="hider" style="color: white; ">Search your dream Internsip.</span>
+          </center>
+        </div>
+        <div class="col-lg-4" style="padding: 2%;">
+          <center>
+            <img id="stic" src="images/chef.png" width="30%" alt="" style="margin: 2%;">
+            <h3 style="color: white; font-weight: bold;">3. Apply Internship</h3>
+            <span id="hi" style="color: white; width: 20%;">Apply to the company and wait it.</span>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Story-->
+
+  <div class="story">
+    <h1  style="padding: 10%; color: white; text-align: center; opacity: 90%; ">Every Big Name was Intern at first...</h1>
+    <center><a id="stick" class="btn btn-outline-light btn-lg" style="margin-top: -15%; opacity: 90%;"><i class="fas fa-address-card"></i> Learn more...</a></center>
+    <p id="hide" style="padding: 0 25%; text-align: center; margin-top: -3%; padding-bottom: 5% ; color:White; display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+<script>
+
+    $('#stick').click(function(){
+      $('#hide').slideToggle()(1000);
+    });
+
+  </script>
+
+
+  <!--Contacts-->
+
+  <div class="contacts" style="padding-bottom: 2%;"><a name="contacts"></a>
+    <h1 style="padding-top: 2%; color: white; text-align: center; opacity: 90%; font-weight: bold;">Contact Us</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+
+        <center>  <img src="images/gera.png" width="90%">    </center>
+          <h1 style="color: white; font-weight: bold; text-align: center;">Aigerim - Manager</h1>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="fon2" style="padding: 7%; margin: 2%; margin-top: 5%" >
+            <h2 style="padding: 10%; color: white; text-align: center; opacity: 90%;">empire@gmail.com</h2>
+          </div>
+          <div class="fon2" style="padding: 7%; margin: 2%;">
+            <h2 style="padding: 10%; color: white; text-align: center; opacity: 90%;">+7 776 178 75 40</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/index.js"></script>
+
+
+
+</body>
+
+</html>

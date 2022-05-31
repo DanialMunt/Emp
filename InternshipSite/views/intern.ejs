@@ -1,0 +1,66 @@
+<!-- src/views/admin.ejs -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--css-->
+        <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body >
+
+
+<div class="vacancies" style = "color: black; margin: 5%">
+    <div class="profile">
+
+        <%if (show.length > 0){ %>
+            <% show.forEach(function(row){ %>
+
+                    <div style = "background-color:#101548 ;color: white; font-size: 25px; margin: 5%; padding: 5%; border-radius: 20px">
+                        <div class="ayy">
+                        <span style="font-weight: bold; font-size: 40px"><%= row.position %></span><br>
+                        <span style="font-weight: bold">Company: </span>
+                        <span><%= row.company %></span> <br><br>
+                        <span style="font-weight: bold">Description: </span><br>
+                        <span><%= row.desc %></span> <br><br>
+                        <span style="font-weight: bold">Requirements: </span><br>
+                        <span><%= row.requirements %></span> <br><br>
+                        <span style="font-weight: bold">Responsibilities: </span><br>
+                        <span><%= row.respons %></span> <br><br>
+                        <span style="font-weight: bold">Salary: </span><br>
+                        <span><%= row.schedule %></span> <br><br>
+                        <span style="font-weight: bold">We Offer: </span><br>
+                        <span><%= row.terms %></span> <br><br>
+                        <span style="font-weight: bold">Contacts: </span><br>
+                        <span><%= row.email %></span><br><br>
+                        <center><a class = "lonk" href="/apply_cv/<%=row.email%>" style="text-decoration: none; font-size: 30px; color: white">Apply your CV</a></center>
+                        </div>
+                    </div>
+
+        <% })}else{ %>
+            <span>No Record Found</span>
+        <% } %>
+
+    </div>
+
+</div>
+
+
+
+
+
+</body>
+
+</html>
+
+
+

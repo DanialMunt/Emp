@@ -1,0 +1,227 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #01020b;
+}
+
+
+.weather-container {
+
+}
+.weather {
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+
+.temp{
+  font-size: 20px;
+  margin: 0;
+    color: white;
+}
+
+
+.ussr {
+  font-size: 20px;
+    color: white;
+}
+
+.money{
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+
+/*-------Intro Animation-------*/
+
+.intro{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #01020b;
+  transition: 1s;
+}
+
+.logo-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.logo{
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+  font-size: 130px;
+}
+
+
+.logo.active{
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+
+}
+
+.logo.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+
+/*-------Header-------*/
+
+.header{
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 25px;
+}
+
+.xxx:hover{
+  color: white;
+  transition: 0.2s;
+
+}
+
+.sp{
+  font-size: 22px;
+}
+
+
+.container-fluid {
+  padding: 2% 7%;
+}
+
+
+.container-fluid h1 {
+  padding-top: 10%;
+}
+
+.nav-link {
+
+}
+
+/*-------Main Block-------*/
+
+.header h1{
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: white;
+}
+
+/*-------About US-------*/
+
+.aboutss {
+  background-color: #01020b;
+  padding: 2%;
+  background-image: url(../images/ww.jpg);
+  background-position: center 30%;
+  background-size: cover;
+}
+
+.about{
+  color:white;
+  margin-top: 15%;
+}
+.about_text{
+line-height: 1.5;
+  width: 90%;
+  font-size: 20px;
+}
+
+.about_h{
+    font-weight: bold;
+}
+
+.car {
+  background-color: #171b21;
+  background-size: 100%;
+  padding: 5%;
+}
+
+.story{
+  background-image: url(../images/tt.jpg);
+  background-position: center 70%;
+}
+
+.share{
+  background-image: url(../images/rr.jpg);
+  background-position: center 30%;
+}
+
+
+
+/*-------Dishes-------*/
+
+.dishesss h1{
+  margin: 2%;
+  font-weight: bold;
+}
+.img1:hover {
+  background-color: #0f1317;
+  opacity: 30%;
+  transition: 0.15s;
+}
+
+.img2:hover {
+  background-color: #0f1317;
+  opacity: 30%;
+  transition: 0.15s;
+}
+
+.img3:hover {
+  background-color: #0f1317;
+  opacity: 30%;
+  transition: 0.15s;
+}
+
+.img4:hover {
+  background-color: #0f1317;
+  opacity: 30%;
+  transition: 0.15s;
+}
+
+.img5:hover {
+  background-color: #0f1317;
+  opacity: 30%;
+  transition: 0.15s;
+}
+
+.img6:hover {
+  background-color: #0f1317;
+  opacity: 30%;
+  transition: 0.15s;
+}
+
+
+
+
+.fon2{
+  background-image: url(../images/cont2.jpg);
+  background-position: center;
+border: 6px solid white;
+}
+
+.sharepage{
+  margin: 2% 0;
+  background-image: url(../images/tt.jpg);
+    background-position: center 3%;
+}
+.ayy{
+  font-size: 20px;
+}
+.lonk:hover{
+  opacity: 70%;
+}
+
+

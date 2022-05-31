@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <!--Favicon-->
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<h1 style="margin-top: 2%; color: white; text-align: center; font-weight: bold;">CV</h1>
+<div class="container" style="padding: 2% 15%; color: white">
+
+    <form name="myForm" id="reg-form" method="post" action="/user_cv">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+            <input name='phone' class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">City</label>
+            <input name='city' class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Profession</label>
+            <input name='career' class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Desired Salary</label>
+            <input name='salary' class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Tell Us About Yourself</label>
+            <textarea name="about" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Key skills</label>
+            <textarea name="key" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Education</label>
+            <input name='education' class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Extra skills</label>
+            <textarea name="extra" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <center><button class="btn btn-primary" >Sign Up</button></center>
+        <!-- Modal -->
+    </form>
+
+
+</div>
+
+
+
+</body>
+
+</html>
